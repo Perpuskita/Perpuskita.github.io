@@ -45,9 +45,3 @@ Route::get('/laporan/buku/excel', 'LaporanController@bukuExcel');
 Route::get('/perpusnesia', function() {
     return view('webperpus');
 });
-
-Route::get('/perpusna', function() {
-    return view('webperpus');
-});
-
-
