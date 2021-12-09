@@ -18,7 +18,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/', 'HomeController@index');
+Route::get('/', function() {
+    return view('tes');
+});
+
 /*
 Route::get('/user', 'UserController@index');
 Route::get('/user-register', 'UserController@create');
@@ -26,7 +29,6 @@ Route::post('/user-register', 'UserController@store');
 Route::get('/user-edit/{id}', 'UserController@edit');
 */
 Route::resource('user', 'UserController');
-
 Route::resource('anggota', 'AnggotaController');
 
 Route::resource('buku', 'BukuController');
