@@ -16,40 +16,40 @@
   <title> Feane </title>
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.css" />
 
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- nice select  -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
   <!-- font awesome style -->
-  <link href="css/font-awesome.min.css" rel="stylesheet" />
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
 
   <!-- Custom styles for this template -->
-  <link href="css/style.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
   <!-- responsive style -->
-  <link href="css/responsive.css" rel="stylesheet" />
+  <link href="assets/css/responsive.css" rel="stylesheet" />
 
 
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/assets/img/favicon.png" rel="icon">
+  <link href="assets/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/assets/css/style.css" rel="stylesheet">
 
 
 </head>
