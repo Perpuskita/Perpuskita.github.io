@@ -46,3 +46,8 @@ Route::get('/perpusnesia', function() {
     return view('webperpus');
 });
 
+Route::get('/perpusna', function() {
+    return view('webperpus');
+});
+
+
