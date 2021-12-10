@@ -16,7 +16,7 @@
   <title> Feane </title>
 
   <!-- bootstrap core css -->
-  <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css" />
+  <link rel="stylesheet" type="text/css" href="asset/css/bootstrap.css" />
 
   <!--owl slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
@@ -33,26 +33,113 @@
 
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/assets/img/favicon.png" rel="icon">
+  <link href="assets/assets/img/apple-touch-icon.png" rel="apple-touch-icon">
   
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
   
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/assets/css/style.css" rel="stylesheet">
 
 
 </head>
+
+<style>
+  .heading_container h2 {
+    position: relative;
+    margin-bottom: 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color:#ce1127;
+}
+.about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color:#ce1127;
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    margin-top: 15px;
+}
+
+.about_section {
+    background: #f5f8ff;
+    color: #222831;
+}
+#header.header-scrolled, #header.header-inner-pages {
+    background: #ce1127;
+}
+.navbar .getstarted {
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    color: #000;
+    font-size: 14px;
+    border: 2px solid #ce1127;
+    font-weight: 600;
+    }
+.navbar a, .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 30px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    white-space: nowrap;
+    transition: 0.3s;
+}
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    color: #000000;
+}
+#header .logo a {
+    color: #ce1127;
+}
+.navbar .getstarted:hover {
+    padding: 8px 20px;
+    margin-left: 30px;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background: #ce1127;
+    font-weight: 600;
+}
+.footer_section {
+    background-color: #222831;
+    color: #ffffff;
+    padding: 75px 0 40px 0;
+    text-align: center;
+}
+#header.header-scrolled, #header.header-inner-pages {
+    background: #eff2f9;
+}
+.about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    margin-top: 15px;
+}
+.about_section .detail-box a:hover {
+    background-color:#ffffff;
+    color: #ce1127;
+    border: 2px solid #ce1127;
+}
+</style>
 
 <!-- ======= Header ======= -->
 <header id="header" class="fixed-top ">
@@ -100,7 +187,7 @@
       <div class="row">
         <div class="col-md-6 ">
           <div class="img-box">
-            <img src="assets/images/about-img.png" alt="">
+            <img src="images/img/about-img.png" alt="">
           </div>
         </div>
         <div class="col-md-6">
@@ -208,12 +295,12 @@
   <!-- footer section -->
 
   <!-- jQery -->
-  <script src="assets/js/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
   <!-- popper js -->
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
   </script>
   <!-- bootstrap js -->
-  <script src="assets/js/bootstrap.js"></script>
+  <script src="js/bootstrap.js"></script>
   <!-- owl slider -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
@@ -222,7 +309,7 @@
   <!-- nice select -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
   <!-- custom js -->
-  <script src="assets/js/custom.js"></script>
+  <script src="js/custom.js"></script>
   <!-- Google Map -->
   <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
   </script>
