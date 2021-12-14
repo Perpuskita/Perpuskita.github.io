@@ -11,7 +11,7 @@
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
-  <link rel="shortcut icon" href="images/favicon.png" type="">
+  <link rel="shortcut icon" href="assets/book.ico" type="">
 
   <title> Feane </title>
 
@@ -145,7 +145,7 @@
 <header id="header" class="fixed-top ">
   <div class="container d-flex align-items-center">
 
-    <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1>
+    <h1 class="logo me-auto"><a href="index.html">Perpusnesia</a></h1>
     <!-- Uncomment below if you prefer to use an image logo -->
     <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -194,17 +194,14 @@
           <div class="detail-box">
             <div class="heading_container">
               <h2>
-                We Are Feanus
+                Welcome To Perpusnesia!
               </h2>
             </div>
             <p>
-              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
-              in some form, by injected humour, or randomised words which don't look even slightly believable. If you
-              are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in
-              the middle of text. All
+            Mari budayakan membaca sebab buku jendela dunia.<br>Makin Banyak Membaca Makin Banyak Hal-Hal yang Kau Tahu.<br> Makin Banyak tempat yang kau tahu makin banyak tempat yang kau kunjungi.
             </p>
-            <a href="">
-              Read More
+            <a href="/home">
+              LOGIN
             </a>
           </div>
         </div>
@@ -237,7 +234,7 @@
               <a href="">
                 <i class="fa fa-envelope" aria-hidden="true"></i>
                 <span>
-                  demo@gmail.com
+                 perpusnesia@gmail.com
                 </span>
               </a>
             </div>
