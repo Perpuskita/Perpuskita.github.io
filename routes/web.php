@@ -17,8 +17,10 @@ Route::get('/', function () {
 */
 Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/', 'HomeController@index');
+Route::get('/login', 'HomeController@index')->name('home');
+Route::get('/', function() {
+    return redirect('/perpusnesia');
+});
 /*
 Route::get('/user', 'UserController@index');
 Route::get('/user-register', 'UserController@create');
