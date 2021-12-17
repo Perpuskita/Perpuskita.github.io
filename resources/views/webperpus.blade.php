@@ -5,12 +5,12 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Lumia Bootstrap Template - Index</title>
+  <title>Perpusnesia - Perpustakaan Digital</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="landingpage/img/favicon.png" rel="icon">
+  <link href="landingpage/img/book.ico" rel="icon">
   <link href="landingpage/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -34,6 +34,254 @@
   ======================================================== -->
 </head>
 
+<style>
+.navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
+    color: #ce1127;
+}
+#hero h1 span {
+    border-bottom: 4px solid #ce1127;
+}
+#hero .btn-get-started {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+    background: #ce1127;
+    text-transform: uppercase;
+}
+#hero .btn-get-started:hover {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    letter-spacing: 2px;
+    display: inline-block;
+    padding: 12px 28px;
+    border-radius: 4px;
+    transition: ease-in-out 0.3s;
+    color: #fff;
+    background:  #c63646;
+    text-transform: uppercase;
+}
+.contact .php-email-form button[type=submit] {
+    background: #ce1127;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.contact .php-email-form button[type=submit]:hover {
+    background: #c63646;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+}
+.back-to-top {
+    position: fixed;
+    visibility: hidden;
+    opacity: 0;
+    right: 15px;
+    bottom: 15px;
+    z-index: 996;
+    background: #ce1127;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    transition: all 0.4s;
+}
+.back-to-top:hover{
+  background: #c63646;
+}
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #ce1127;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+#footer .social-links a:hover{
+  background:#c63646;
+}
+#footer .footer-newsletter form input[type=submit] {
+    position: absolute;
+    top: 0;
+    right: -2px;
+    bottom: 0;
+    border: 0;
+    background: none;
+    font-size: 16px;
+    padding: 0 20px 2px 20px;
+    background: #ce1127;
+    color: #fff;
+    transition: 0.3s;
+    border-radius: 0 4px 4px 0;
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 10%);
+}
+#footer .footer-newsletter form input[type=submit]:hover{
+  background: #c63646;
+}
+#footer .footer-newsletter form {
+    margin-top: 30px;
+    background: #fff;
+    padding: 6px 10px;
+    position: relative;
+    border-radius: 4px;
+    text-align: left;
+    border: 1px solid #c63646;
+}
+#footer .footer-top .footer-links ul i {
+    padding-right: 2px;
+    color: #ce1127;
+    font-size: 18px;
+    line-height: 1;
+}
+a {
+    color: #ce1127;
+    text-decoration: none;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    border: 1px solid #ce1127;
+}
+.testimonials .swiper-pagination .swiper-pagination-bullet-active {
+    width: 12px;
+    height: 12px;
+    background-color: #ce1127;
+}
+.section-title h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #ce1127;
+    bottom: 0;
+    left: calc(50% - 20px);
+}
+#hero {
+    width: 100%;
+    height: 60vh;
+    background: url(landingpage/img/header.jpg) center center;
+    background-size: cover;
+    position: relative;
+    margin-top: 70px;
+    padding: 0;
+}
+.header-social-links a:hover{
+    color: #ce1127;
+    padding-left: 8px;
+    display: inline-block;
+    line-height: 0px;
+    transition: 0.3s;
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.portfolio .portfolio-item figure {
+    background: #fff;
+    overflow: hidden;
+    height: 220px;
+    position: relative;
+    border-radius: 20px 20px 20px 20px;
+    margin: 0;
+}
+.portfolio .portfolio-wrap {
+    box-shadow: 0px 2px 12px rgb(0 0 0 / 8%);
+    transition: 0.3s;
+    border-radius: 20px 20px 0 0;
+}
+.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+    background: #ce1127;
+    color: #fff;
+}
+.portfolio .portfolio-item figure .link-preview, .portfolio .portfolio-item figure .link-details {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    line-height: 0;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+    overflow: hidden;
+    font-size: 20px;
+}
+.portfolio .portfolio-item figure .link-preview:hover, .portfolio .portfolio-item figure .link-details:hover {
+    background: #ce1127;
+}
+.testimonials .testimonial-item p {
+    /* font-style: italic; */
+    font-size: 18px;
+    margin: 0 auto 15px auto;
+}
+.what-we-do .icon-box .icon i {
+    color: #ce1127;
+    font-size: 28px;
+}
+.what-we-do .icon-box .icon i:hover {
+    color: #ce1127;
+    font-size: 28px;
+}
+.what-we-do .icon-box h4 a:hover {
+    color: #ce1127;
+    transition: ease-in-out 0.3s;
+}
+a:hover {
+    color: #ce1127;
+    text-decoration: none;
+}
+.what-we-do .icon-box:hover h4 a, .what-we-do .icon-box:hover .icon i {
+    color: #ce1127;
+}
+.what-we-do .icon-box .icon {
+    margin: 0 auto;
+    width: 64px;
+    height: 64px;
+    background: #F9F9F9;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: ease-in-out 0.3s;
+}
+.section-bg {
+    background-color: #F9F9F9;
+}
+.services .icon-box:hover h4 a {
+    color: #ce1127;
+}
+.services .icon-box i {
+    float: left;
+    color: #ce1127;
+    font-size: 40px;
+    line-height: 0;
+}
+</style>
+
 <body>
 
   <!-- ======= Header ======= -->
@@ -41,7 +289,7 @@
     <div class="container d-flex align-items-center">
 
       <div class="logo me-auto">
-        <h1><a href="index.html">Lumia</a></h1>
+        <h1><a href="index.html">Perpusnesia</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="landingpage/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
@@ -51,9 +299,9 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#testimonials">Testimonials</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link scrollto " href="#portfolio">Books</a></li>
+          <li><a class="nav-link scrollto" href="#testimonials">Quotes</a></li>
+          <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -69,7 +317,7 @@
               <li><a href="#">Drop Down 3</a></li>
               <li><a href="#">Drop Down 4</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -88,9 +336,9 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
     <div class="container text-center text-md-left" data-aos="fade-up">
-      <h1>Welcome to <span>Lumia</span></h1>
-      <h2>We are team of talented designers making websites with Bootstrap</h2>
-      <a href="#about" class="btn-get-started scrollto">Get Started</a>
+      <h1>Welcome to <span>Perpusnesia</span></h1>
+      <h2>Mari menambah pengetahuan dan wawasanmu dengan membaca!</h2>
+      <a href="/home" class="btn-get-started scrollto">Login</a>
     </div>
   </section><!-- End Hero -->
 
@@ -101,32 +349,32 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>What We Do</h2>
-          <p>Magnam dolores commodi suscipit consequatur ex aliquid</p>
+          <h2>Perpusnesia</h2>
+          <!-- <p>Magnam dolores commodi suscipit consequatur ex aliquid</p> -->
         </div>
 
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="icon-box">
-              <div class="icon"><i class="bx bxl-dribbble"></i></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <div class="icon"><i class="bi bi-emoji-smile-fill"></i></div>
+              <h4><a href="">Perpusnesia</a></h4>
+              <p>Melayani peminjaman berbagai buku bacaan di perpustakaan digital Perpusnesia.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <div class="icon"><i class="bi bi-book"></i></div>
+              <h4><a href="">Admin Perpusnesia</a></h4>
+              <p>Admin Perpusnesia akan selalu update tentang buku-buku yang ingin kalian pinjam di Perpusnesia.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box">
-              <div class="icon"><i class="bx bx-tachometer"></i></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <div class="icon"><i class="bi bi-people-fill"></i></div>
+              <h4><a href="">User Perpusnesia</a></h4>
+              <p>Daftar jadi anggota dan buat akun user untuk meminjam semua buku yang ada di Perpusnesia!</p>
             </div>
           </div>
 
@@ -141,7 +389,7 @@
 
         <div class="row">
           <div class="col-lg-6">
-            <img src="landingpage/img/about.jpg" class="img-fluid" alt="">
+            <img src="landingpage/img/buku.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
             <h3>About Us</h3>
@@ -170,8 +418,55 @@
       </div>
     </section><!-- End About Section -->
 
+    <br><br>
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <!-- <div class="col-lg-6">
+            <img src="landingpage/img/buku.jpg" class="img-fluid" alt="">
+          </div> -->
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <h3>About Us</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <ul>
+              <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
+              <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
+            </ul>
+            <div class="row icon-boxes">
+              <div class="col-md-6">
+                <i class="bx bx-receipt"></i>
+                <h4>Corporis voluptates sit</h4>
+                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              </div>
+              <div class="col-md-6 mt-4 mt-md-0">
+                <i class="bx bx-cube-alt"></i>
+                <h4>Ullamco laboris nisi</h4>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              </div>
+
+              <!-- <div class="col-lg-6">
+                <img src="landingpage/img/buku.jpg" class="img-fluid" alt="">
+              </div> -->
+
+            </div>
+          </div>
+
+              <div class="col-lg-6">
+                <img src="landingpage/img/buku.jpg" class="img-fluid" alt="">
+              </div>
+
+        </div>
+
+      </div>
+    </section><br><br><br><!-- End About Section -->
+
+
     <!-- ======= Skills Section ======= -->
-    <section id="skills" class="skills">
+    <!-- <section id="skills" class="skills">
       <div class="container">
 
         <div class="row skills-content">
@@ -229,10 +524,10 @@
         </div>
 
       </div>
-    </section><!-- End Skills Section -->
+    </section>End Skills Section -->
 
     <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
+    <!-- <section id="counts" class="counts">
       <div class="container">
 
         <div class="row">
@@ -272,7 +567,7 @@
         </div>
 
       </div>
-    </section><!-- End Counts Section -->
+    </section>End Counts Section -->
 
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
@@ -336,154 +631,246 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Sit sint consectetur velit quisquam cupiditate impedit suscipit</p>
+          <h2>Books</h2>
+          <p>Koleksi buku-buku yang ada di Perpusnesia!</p>
         </div>
 
         <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-bk1">Ensiklopedia & Karya Ilmiah</li>
+              <li data-filter=".filter-bk2">Biografi</li>
+              <li data-filter=".filter-bk3">Kamus & Panduan</li>
+              <li data-filter=".filter-bk4">Novel & Komik</li>
+              <li data-filter=".filter-bk5">Antologi</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk1 wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="landingpage/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-                <a href="landingpage/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="link-preview portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="landingpage/img/portfolio/bk1-1.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk-1-1.jpg" data-gallery="portfolioGallery" class="link-preview portfolio-lightbox" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 1</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.html">Technology Encyclopedia</a></h4>
+                <p>Ensiklopedia & Karya Ilmiah</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk3 wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="landingpage/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-                <a href="landingpage/img/portfolio/portfolio-2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="landingpage/img/portfolio/bk3-1.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk3-1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 3</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.html">Oxford Dictionary (Pocket)</a></h4>
+                <p>Kamus & Panduan</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk1 wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="landingpage/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-                <a href="landingpage/img/portfolio/portfolio-3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="landingpage/img/portfolio/bk1-2.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk1-2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 2</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.html">Knowledge Encyclopedia</a></h4>
+                <p>Ensiklopedia & Karya Ilmiah</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk2 wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="landingpage/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-                <a href="landingpage/img/portfolio/portfolio-4.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="landingpage/img/portfolio/bk2-2.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk2-2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 2</a></h4>
-                <p>Card</p>
+                <h4><a href="portfolio-details.html">Biografi Tokoh Agama</a></h4>
+                <p>Biografi</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk3 wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="landingpage/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-                <a href="landingpage/img/portfolio/portfolio-5.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="landingpage/img/portfolio/bk3-2.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk3-2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 2</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.html">Oxford Dictionary</a></h4>
+                <p>Kamus & Panduan</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk1 wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="landingpage/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-                <a href="landingpage/img/portfolio/portfolio-6.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="landingpage/img/portfolio/bk1-3.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk1-3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">App 3</a></h4>
-                <p>App</p>
+                <h4><a href="portfolio-details.html">Space Encyclopedia</a></h4>
+                <p>Ensiklopedia & Karya Ilmiah</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk2 wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="landingpage/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-                <a href="landingpage/img/portfolio/portfolio-7.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="landingpage/img/portfolio/bk2-3.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk2-3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 1</a></h4>
-                <p>Card</p>
+                <h4><a href="portfolio-details.html">Biografi Tokoh Politik</a></h4>
+                <p>Biografi</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk2 wow fadeInUp" data-wow-delay="0.1s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="landingpage/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-                <a href="landingpage/img/portfolio/portfolio-8.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="landingpage/img/portfolio/bk2-1.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk2-1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Card 3</a></h4>
-                <p>Card</p>
+                <h4><a href="portfolio-details.html">Biografi Tokoh Agama</a></h4>
+                <p>Biografi</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk3 wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="landingpage/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-                <a href="landingpage/img/portfolio/portfolio-9.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <img src="landingpage/img/portfolio/bk3-3.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk3-3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
                 <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="portfolio-details.html">Web 1</a></h4>
-                <p>Web</p>
+                <h4><a href="portfolio-details.html">Buku Latihan Soal-soal Ujian</a></h4>
+                <p>Kamus & Panduan</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="landingpage/img/portfolio/bk4-1.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk4-1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Marvel Comics X-MEN</a></h4>
+                <p>Novel & Komik</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="landingpage/img/portfolio/bk4-2.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk4-2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Comics</a></h4>
+                <p>Novel & Komik</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk4 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="landingpage/img/portfolio/bk4-3.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk4-3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Novel - "Tapak Jejak"</a></h4>
+                <p>Novel & Komik</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk5 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="landingpage/img/portfolio/bk5-1.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk5-1.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Antalogi - "Memeluk Hujan"</a></h4>
+                <p>Antologi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk5 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="landingpage/img/portfolio/bk5-2.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk5-2.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Sajak dari Tugu</a></h4>
+                <p>Antologi</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-bk5 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="landingpage/img/portfolio/bk5-3.jpg" class="img-fluid" alt="">
+                <a href="landingpage/img/portfolio/bk5-3.jpg" class="link-preview portfolio-lightbox" data-gallery="portfolioGallery" title="Preview"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" class="link-details" title="More Details"><i class="bx bx-link"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a href="portfolio-details.html">Antalogi Puisi</a></h4>
+                <p>Antologi</p>
               </div>
             </div>
           </div>
@@ -498,8 +885,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+          <h2>Quotes</h2>
+          <!-- <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p> -->
         </div>
 
         <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
@@ -509,12 +896,13 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                   Aku rela dipenjara asalkan bersama buku, karena dengan buku aku bebas
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="landingpage/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
+                <br>
+                <img src="landingpage/img/testimonials/quotes-moh-hatta.jpg" class="testimonial-img" alt="">
+                <h3>Mohammad Hatta</h3>
+                <h4>Wakil Presiden Indonesia pertama</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -522,12 +910,12 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    The things i want to know are in books, my best friend is the man who'll get me a book I ain't read.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="landingpage/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
+                <img src="landingpage/img/testimonials/quotes-abraham.jpg" class="testimonial-img" alt="">
+                <h3>Abraham Lincoln</h3>
+                <h4>Presiden Amerika Serikat ke-16</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -535,12 +923,13 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    Books open windows to the world and have the power to transform lives.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="landingpage/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
+                <br>
+                <img src="landingpage/img/testimonials/quotes-ralph.jpg" class="testimonial-img" alt="">
+                <h3>Ralph Lauren</h3>
+                <h4>Pengusaha miliarder</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -548,12 +937,13 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+                    Power comes not from knowledge kept but from knowledge shared.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="landingpage/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
+                <br>
+                <img src="landingpage/img/testimonials/quotes-bill-gates.jpg" class="testimonial-img" alt="">
+                <h3>Bill Gates</h3>
+                <h4>Ketua Microsoft</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -561,12 +951,13 @@
               <div class="testimonial-item">
                 <p>
                   <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+                    The only thing that you absolutely have to know, is the location of the library.
                   <i class="bx bxs-quote-alt-right quote-icon-right"></i>
                 </p>
-                <img src="landingpage/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
+                <br>
+                <img src="landingpage/img/testimonials/quotes-albert.jpg" class="testimonial-img" alt="">
+                <h3>Albert Einstein</h3>
+                <h4>Fisikawan</h4>
               </div>
             </div><!-- End testimonial item -->
 
@@ -589,11 +980,11 @@
         <div class="row">
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="landingpage/img/team/team-1.jpg" alt="">
-              <h4>Walter White</h4>
-              <span>Chief Executive Officer</span>
+              <img src="landingpage/img/team/ppl.jpg" alt="">
+              <h4>Ahmad Nur Cholis</h4>
+              <span>200533628019</span>
               <p>
-                Magni qui quod omnis unde et eos fuga et exercitationem. Odio veritatis perspiciatis quaerat qui aut aut aut
+                ahmad.nur.2005336@students.um.ac.id
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -606,7 +997,7 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="landingpage/img/team/team-2.jpg" alt="">
+              <img src="landingpage/img/team/ppl.jpg" alt="">
               <h4>Sarah Jhinson</h4>
               <span>Product Manager</span>
               <p>
@@ -623,11 +1014,28 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div class="member">
-              <img src="landingpage/img/team/team-3.jpg" alt="">
-              <h4>William Anderson</h4>
-              <span>CTO</span>
+              <img src="landingpage/img/team/ppl.jpg" alt="">
+              <h4>Khoirul Hamdan Syafi'i</h4>
+              <span>200533628040</span>
               <p>
-                Voluptas necessitatibus occaecati quia. Earum totam consequuntur qui porro et laborum toro des clara
+                khoirul.hamdan.2005336@students.um.ac.id
+              </p>
+              <div class="social">
+                <a href=""><i class="bi bi-twitter"></i></a>
+                <a href=""><i class="bi bi-facebook"></i></a>
+                <a href=""><i class="bi bi-instagram"></i></a>
+                <a href=""><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+            <div class="member">
+              <img src="landingpage/img/team/ppl.jpg" alt="">
+              <h4>Lintang Fajarianti Amaradipta</h4>
+              <span>200533628046</span>
+              <p>
+                lintang.fajarianti.2005336@students.um.ac.id
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
