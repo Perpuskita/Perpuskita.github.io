@@ -421,9 +421,12 @@ a:hover {
             <img src="landingpage/img/buku.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <h3>About Us</h3>
+            <h3>About Perpusnesia</h3>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Perpusnesia merupakan sebuah website perpustakaan digital yang melayani peminjaman buku bagi anggotanya. Website ini bisa diakses oleh admin perpustakaan dan user yang telah mendaftar menjadi anggota perpustakaan.
+             <br>
+             Perpusnesia menyediakan berbagai macam buku-buku bacaan seperti buku ensiklopedia & karya ilmiah, buku biografi, kamus dan buku panduan, novel dan komik, dan buku antologi.
+             Buku-buku tersebut dapat dipinjam melalui transaksi peminjaman secara online melalui website "Perpusnesia".
             </p>
             <ul>
               <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
