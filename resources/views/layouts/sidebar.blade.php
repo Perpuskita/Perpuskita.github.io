@@ -49,7 +49,7 @@
             </div>
           </li>
           <li class="nav-item {{ setActive(['/', 'home']) }}"> 
-            <a class="nav-link" href="{{url('/')}}">
+            <a class="nav-link" href="{{url('/home')}}">
               <i class="menu-icon mdi mdi-television"></i>
               <span class="menu-title">Dashboard</span>
             </a>
