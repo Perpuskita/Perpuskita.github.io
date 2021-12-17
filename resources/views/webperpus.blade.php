@@ -280,6 +280,35 @@ a:hover {
     font-size: 40px;
     line-height: 0;
 }
+.team .member img {
+    max-width: 30%;
+    border-radius: 50%;
+    margin: 0 0 30px 0;
+}
+.team .member {
+    text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 12px 0px rgb(0 0 0 / 10%);
+    padding: 30px 0px;
+    width: 300px;
+    background: #fff;
+}
+.team .member p {
+    padding-top: 10px;
+    font-size: 12px;
+    font-style: italic;
+    color: #000;
+}
+.team .member h4 {
+    font-weight: 700;
+    margin-bottom: 2px;
+    font-size: 14px;
+}
+.team .member .social a:hover {
+    font-size: 18px;
+    margin: 0 2px;
+    color: #ce1127;
+}
 </style>
 
 <body>
@@ -318,8 +347,8 @@ a:hover {
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li> -->
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
+          <!-- <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul> -->
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
 
@@ -456,7 +485,7 @@ a:hover {
           </div>
 
               <div class="col-lg-6">
-                <img src="landingpage/img/buku.jpg" class="img-fluid" alt="">
+                <img src="landingpage/img/buku-2.jpg" class="img-fluid" alt="">
               </div>
 
         </div>
@@ -974,11 +1003,11 @@ a:hover {
 
         <div class="section-title">
           <h2>Team</h2>
-          <p>Sit sint consectetur velit quos quisquam cupiditate nemo qui</p>
+          <p>Pemrograman Web - PTI A 2020 - Kelompok 2</p>
         </div>
 
         <div class="row">
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="landingpage/img/team/ppl.jpg" alt="">
               <h4>Ahmad Nur Cholis</h4>
@@ -995,13 +1024,13 @@ a:hover {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="landingpage/img/team/ppl.jpg" alt="">
-              <h4>Sarah Jhinson</h4>
-              <span>Product Manager</span>
+              <h4>Jati Pinatih</h4>
+              <span>200533628034</span>
               <p>
-                Repellat fugiat adipisci nemo illum nesciunt voluptas repellendus. In architecto rerum rerum temporibus
+                jati.pinatih.2005336@students.um.ac.id
               </p>
               <div class="social">
                 <a href=""><i class="bi bi-twitter"></i></a>
@@ -1012,7 +1041,7 @@ a:hover {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="landingpage/img/team/ppl.jpg" alt="">
               <h4>Khoirul Hamdan Syafi'i</h4>
@@ -1029,7 +1058,7 @@ a:hover {
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
             <div class="member">
               <img src="landingpage/img/team/ppl.jpg" alt="">
               <h4>Lintang Fajarianti Amaradipta</h4>
@@ -1052,7 +1081,7 @@ a:hover {
     </section><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact section-bg">
+    <!-- <section id="contact" class="contact section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -1119,12 +1148,12 @@ a:hover {
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>End Contact Section -->
 
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
+  <!-- <footer id="footer">
 
     <div class="footer-top">
       <div class="container">
@@ -1173,20 +1202,20 @@ a:hover {
 
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <div class="container d-md-flex py-4">
+    <!-- <div class="container d-md-flex py-4">
 
       <div class="me-md-auto text-center text-md-start">
         <div class="copyright">
           &copy; Copyright <strong><span>Lumia</span></strong>. All Rights Reserved
         </div>
         <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
+          All the links in the footer should remain intact. -->
           <!-- You can delete the links only if you purchased the pro version. -->
           <!-- Licensing information: https://bootstrapmade.com/license/ -->
           <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/lumia-bootstrap-business-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+          <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
         </div>
       </div>
       <div class="social-links text-center text-md-right pt-3 pt-md-0">
@@ -1197,7 +1226,7 @@ a:hover {
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>End Footer -->
 
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
