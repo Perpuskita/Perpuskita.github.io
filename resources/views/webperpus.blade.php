@@ -309,6 +309,17 @@ a:hover {
     margin: 0 2px;
     color: #ce1127;
 }
+.about ul i {
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 22px;
+    color: #ce1127;
+}
+.about .icon-boxes i {
+    font-size: 48px;
+    color: #ce1127;
+}
 </style>
 
 <body>
@@ -327,7 +338,7 @@ a:hover {
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
+          <li><a class="nav-link scrollto" href="#services">Features</a></li>
           <li><a class="nav-link scrollto " href="#portfolio">Books</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">Quotes</a></li>
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
@@ -379,7 +390,7 @@ a:hover {
 
         <div class="section-title">
           <h2>Perpusnesia</h2>
-          <!-- <p>Magnam dolores commodi suscipit consequatur ex aliquid</p> -->
+          <p>Apa saja yang ada di Perpusnesia?</p>
         </div>
 
         <div class="row">
@@ -403,7 +414,7 @@ a:hover {
             <div class="icon-box">
               <div class="icon"><i class="bi bi-people-fill"></i></div>
               <h4><a href="">User Perpusnesia</a></h4>
-              <p>Daftar jadi anggota dan buat akun user untuk meminjam semua buku yang ada di Perpusnesia!</p>
+              <p>Buat akun user dan daftar menjadi angota untuk meminjam semua buku yang ada di Perpusnesia!</p>
             </div>
           </div>
 
@@ -424,24 +435,21 @@ a:hover {
             <h3>About Perpusnesia</h3>
             <p>
              Perpusnesia merupakan sebuah website perpustakaan digital yang melayani peminjaman buku bagi anggotanya. Website ini bisa diakses oleh admin perpustakaan dan user yang telah mendaftar menjadi anggota perpustakaan.
-             <br>
-             Perpusnesia menyediakan berbagai macam buku-buku bacaan seperti buku ensiklopedia & karya ilmiah, buku biografi, kamus dan buku panduan, novel dan komik, dan buku antologi.
-             Buku-buku tersebut dapat dipinjam melalui transaksi peminjaman secara online melalui website "Perpusnesia".
             </p>
-            <ul>
-              <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-              <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-            </ul>
+            <!-- <ul>
+              <li><i class="bx bx-check-double"></i> Mudahnya akses ke berbagai buku.</li>
+              <li><i class="bx bx-check-double"></i> Admin yang aktif .</li>
+            </ul> -->
             <div class="row icon-boxes">
               <div class="col-md-6">
-                <i class="bx bx-receipt"></i>
-                <h4>Corporis voluptates sit</h4>
-                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              <i class="bi bi-emoji-smile"></i>
+                <h4>Membantu user</h4>
+                <p>Admin Perpusnesia akan membantu User dalam transaksi peminjaman buku</p>
               </div>
               <div class="col-md-6 mt-4 mt-md-0">
-                <i class="bx bx-cube-alt"></i>
-                <h4>Ullamco laboris nisi</h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              <i class="bi bi-box-seam"></i>
+                <h4>Koleksi buku</h4>
+                <p>Perpusnesia selalu menambah koleksi buku-buku terbaru bagi pembaca</p>
               </div>
             </div>
           </div>
@@ -460,24 +468,25 @@ a:hover {
             <img src="landingpage/img/buku.jpg" class="img-fluid" alt="">
           </div> -->
           <div class="col-lg-6 pt-4 pt-lg-0">
-            <h3>About Us</h3>
+            <!-- <h3>About Us</h3> -->
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+             Perpusnesia menyediakan berbagai macam buku-buku bacaan seperti buku ensiklopedia & karya ilmiah, buku biografi, kamus dan buku panduan, novel dan komik, dan buku antologi.
+             Buku-buku tersebut dapat dipinjam melalui transaksi peminjaman secara online melalui website "Perpusnesia".
             </p>
-            <ul>
+            <!-- <ul>
               <li><i class="bx bx-check-double"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
               <li><i class="bx bx-check-double"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-            </ul>
+            </ul> -->
             <div class="row icon-boxes">
               <div class="col-md-6">
-                <i class="bx bx-receipt"></i>
-                <h4>Corporis voluptates sit</h4>
-                <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+              <i class="bi bi-chat-dots-fill"></i>
+                <h4>Peminjaman buku</h4>
+                <p>Sebelum melakukan peminjaman buku, User harus membuat akun dan mendaftar menjadi anggota perpustakaan</p>
               </div>
               <div class="col-md-6 mt-4 mt-md-0">
-                <i class="bx bx-cube-alt"></i>
-                <h4>Ullamco laboris nisi</h4>
-                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+              <i class="bi bi-bookmark-check-fill"></i>
+                <h4>Benefit</h4>
+                <p>Perpusnesia memudahkan user untuk meminjam buku bisa dimana saja dan kapan saja</p>
               </div>
 
               <!-- <div class="col-lg-6">
@@ -606,51 +615,51 @@ a:hover {
       <div class="container">
 
         <div class="section-title">
-          <h2>Services</h2>
-          <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem</p>
+          <h2>Features</h2>
+          <p>Apa saja yang bisa kita lakukan di Perpusnesia?</p>
         </div>
 
         <div class="row">
           <div class="col-md-6">
             <div class="icon-box">
-              <i class="bi bi-briefcase"></i>
-              <h4><a href="#">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+            <i class="bi bi-person-plus-fill"></i>
+              <h4><a href="#">Menambahkan Anggota</a></h4>
+              <p>Admin akan menambahkan data anggota agar anggota tersebut dapat membuat akun</p>
             </div>
           </div>
           <div class="col-md-6 mt-4 mt-lg-0">
             <div class="icon-box">
-              <i class="bi bi-card-checklist"></i>
-              <h4><a href="#">Dolor Sitema</a></h4>
-              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
+            <i class="bi bi-book"></i>
+              <h4><a href="#">Berbagai Macam Buku</a></h4>
+              <p>Perpusnesia menyediakan berbagai macam buku dan selalu memiliki koleksi buku-buku baru</p>
             </div>
           </div>
           <div class="col-md-6 mt-4">
             <div class="icon-box">
-              <i class="bi bi-bar-chart"></i>
-              <h4><a href="#">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+            <i class="bi bi-journal-bookmark-fill"></i>
+              <h4><a href="#">Peminjaman Buku</a></h4>
+              <p>Peminjaman buku bisa dilakukan secara online dan memudahkan user untuk meminjam buku dimana saja</p>
             </div>
           </div>
           <div class="col-md-6 mt-4">
             <div class="icon-box">
-              <i class="bi bi-binoculars"></i>
-              <h4><a href="#">Nemo Enim</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+            <i class="bi bi-person-circle"></i>
+              <h4><a href="#">Mendaftar jadi anggota</a></h4>
+              <p>User yang telah membuat akun bisa mendaftar menjadi anggta perpustakaan di Perpusnesia</p>
             </div>
           </div>
           <div class="col-md-6 mt-4">
             <div class="icon-box">
-              <i class="bi bi-brightness-high"></i>
-              <h4><a href="#">Magni Dolore</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+            <i class="bi bi-card-checklist"></i>
+              <h4><a href="#">Data Transaksi</a></h4>
+              <p>Transaksi peminjaman akan tersimpan ke dalam database</p>
             </div>
           </div>
           <div class="col-md-6 mt-4">
             <div class="icon-box">
               <i class="bi bi-calendar4-week"></i>
-              <h4><a href="#">Eiusmod Tempor</a></h4>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
+              <h4><a href="#">Dashboard Analitik</a></h4>
+              <p>Admin dan User Perpusnesia bisa mengakses laman dashboard akun mereka</p>
             </div>
           </div>
         </div>
