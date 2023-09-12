@@ -21193,8 +21193,8 @@ cr.behaviors.solid = function(runtime)
 }());
 cr.getObjectRefTable = function () { return [
 	cr.plugins_.Keyboard,
-	cr.plugins_.Text,
 	cr.plugins_.Sprite,
+	cr.plugins_.Text,
 	cr.plugins_.TiledBg,
 	cr.behaviors.Platform,
 	cr.behaviors.scrollto,
